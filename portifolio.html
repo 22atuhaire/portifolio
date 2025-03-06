@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atuhaire-Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            color: #f0a500;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        nav a:hover {
+            color: #f0a500;
+            border-bottom: 2px solid #f0a500;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .about, .skills, .projects, .contact {
+            background-color: #1e1e1e;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #f0a500;
+        }
+        .about img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #f0a500;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .skills li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .projects .project {
+            background-color: #333;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px auto;
+            width: 75%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .projects h3 {
+            margin-bottom: 10px;
+            color: #f0a500;
+        }
+        .contact a {
+            color: #f0a500;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        footer {
+            background-color: #1e1e1e;
+            padding: 15px;
+            text-align: center;
+            font-size: 1em;
+            color: #bbb;
+            margin-top: 30px;
+        }
+        footer a {
+            color: #f0a500;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ATUHAIRE ABIUDI</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="Atuhaire Abiudi">
+    <p>I'm a passionate Software Engineering student currently
+         with much emphasis in backend development.<br> Sofar i have learned Python very well, Django, and
+          building scalable web applications. <p>
+            I also love to study Java since it is so much essential concerning backend development and 
+            Javascript is in my list too.
+          </p>I love solving complex problems and continuously
+           learning new technologies more especially concerning modern management technologies.</p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>Python & Django</li>
+        <li>Java</li>
+        <li>Version Control (Git)</li>
+        <li>Problem Solving</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Project 1: Portfolio Website</h3>
+        <p>This is my personal portfolio website built using HTML, CSS. It showcases my skills, projects, and contact information.</p>
+        <a href="https://github.com/22atuhaire/portfolio" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+        <h3>Project 2: Authentication system</h3>
+        <p>I developed a simple Authentication project using
+            Django, where a user can signup , login, and update password in case if is forgotten.</p>
+        <a href="https://github.com/22atuhaire/Authentication-system.git" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+        <h3>Project 3: Football ticketing system</h3>
+        <p>Developed a simple ticketing system using Java which can allow discounting when certain conditions are meet</p>
+        <a href="https://github.com/22atuhaire/footbal-ticket-system.git" target="_blank">View on GitHub</a>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to get in touch, feel free to reach out via email or through my social links below:</p>
+    <p>
+        <a href="mailto:atuhaireabiud2000@gmail.com">Email</a><br>
+        <a href="https://github.com/22atuhaire" target="_blank">GitHub</a>
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Atuhaire Abiudi. All rights reserved. <br> <a href="#about">Back to Top</a></p>
+</footer>
+
+</body>
+</html>
